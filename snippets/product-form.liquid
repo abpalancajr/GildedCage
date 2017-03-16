@@ -9,9 +9,11 @@
 
     <div id="infiniteoptions-container"></div>
     <div id="uploadery-container"></div>
-    <div class="product-options">
+    
+    <div class="product-options">    
       <select name="id" id="product-variants">
         {% for variant in product.variants %}
+        {% include 'bold-hidden-variants' with variant, bold_loop: 'loop' %}
           <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}" data-sku="{{ variant.sku }}">{{ variant.title }} - {{ variant.price | money }}</option>
         {% endfor %}
       </select>
@@ -28,7 +30,7 @@
       </div>
       {% endcomment %}
 
-    </div>
+    </div>    
 
     {% if settings.enable-product-quantity %}
       <div class="product-quantity">
@@ -61,6 +63,11 @@
         <link itemprop="availability" href="http://schema.org/OutOfStock">
       {% endif %}
     </div>
+
+    {% unless qb_loaded == 'true' %}
+      <div class="shappify-qty-msg">{{bold_selected_or_first_available_variant.metafields.shappify_qb.pricing_html}}</div>
+    {% assign qb_loaded = 'true' %}
+    {% endunless %}
 
     <div class="product-message"></div>
   </form>

@@ -61,6 +61,7 @@
       <div class="related-products-listing {{settings.collection-layout-style}}-layout {{settings.collection-product-text-style}}-style rows-of-{{settings.collection-products-per-row}}">
         {% assign currentProductFound = false %}
         {% for prod in collection.products limit: numberOfRelatedProductsToShow %}
+        {% include 'bold-product' with product, hide_action: 'skip' %}
           {% if prod.title == product.title %}
             {% assign currentProductFound = true %}
           {% else %}
@@ -78,6 +79,6 @@
 <script>
   // required for splitting variants
   // see ProductView
-  window.productJSON = {{ product | json }};
+  window.productJSON = bold_product_json[{{ product.id }}];
   window.FirstVariant = {{ product.selected_or_first_available_variant | json }};
 </script>

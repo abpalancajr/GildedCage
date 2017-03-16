@@ -10,6 +10,7 @@
 
       <div class="home-featured-products-list collection-products uniform-layout {{settings.collection-product-text-style}}-style">
         {% for product in collections[settings.home-featured-products].products limit: featuredProducts %}
+          {% include 'bold-product' with product, hide_action: 'skip' %}
           {% include 'product-list-item' %}
         {% endfor %}
       </div>
