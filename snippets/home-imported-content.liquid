@@ -1,0 +1,27 @@
+
+{% if pages[settings.home-imported-content-page].content != blank %}
+  <div class="home-module home-imported-content {% if settings.home-embedded-content-image%}has-media media-aligned-{{ settings.home-embedded-content-alignment }}{% endif %}">
+    <div class="home-module-content">
+
+      {% if settings.home-imported-content-title != blank %}
+        <h4 class="section-title">{{ settings.home-imported-content-title }}</h4>
+      {% endif %}
+
+      {% if settings.home-embedded-content-image %}<div class="home-imported-content-wrapper">{% endif %}
+
+      <div class="rte">
+        <h2>{{ pages[settings.home-imported-content-page].title }}</h2>
+
+        {{ pages[settings.home-imported-content-page].content }}
+      </div>
+
+      {% if settings.home-embedded-content-image %}
+        <div class="home-embedded-content rte">
+          <img alt="" src="{{ 'home-embedded-content.png' | asset_url }}">
+        </div>
+      {% endif %}
+
+      {% if settings.home-embedded-content-image %}</div>{% endif %}
+    </div>
+  </div>
+{% endif %}

@@ -1,0 +1,4236 @@
+[
+  {
+    "logo": "https:\/\/s3.amazonaws.com\/cdn.pixelunion.net\/shopify\/avatar_plain.jpg",
+    "settings": [
+      {
+        "content": "Pacific Theme",
+        "type": "header"
+      },
+      {
+        "content": "[Pixel Union](https:\/\/www.pixelunion.net) | v1.5.5",
+        "type": "paragraph"
+      },
+      {
+        "content": "We suggest reading through our [documentation](http:\/\/www.pixelunion.net\/support\/pacific-theme-manual\/), which provides a thorough overview of all the theme's features. It also includes helpful instructions and design tips from the team. If you're confused at any stage, don't hesitate to contact us by sending a quick [email](mailto:support@pixelunion.net) or [tweet](http:\/\/twitter.com\/pixelunion). We're available Monday through Friday during our office hours, 9 a.m. to 5 p.m. (PST).",
+        "type": "paragraph"
+      },
+      {
+        "content": "Find us on the web: [Pixel Union](http:\/\/www.pixelunion.net) | Twitter: [@pixelunion](http:\/\/twitter.com\/pixelunion) | Facebook: [http:\/\/facebook.com\/pixelunion](http:\/\/facebook.com\/pixelunion)",
+        "type": "paragraph"
+      }
+    ],
+    "name": "theme_info"
+  },
+  {
+    "settings": [
+      {
+        "content": "General",
+        "type": "header"
+      },
+      {
+        "id": "body-background-use-image",
+        "label": "Use a background image",
+        "type": "checkbox"
+      },
+      {
+        "id": "background-image.jpg",
+        "max-height": 1200,
+        "max-width": 1920,
+        "label": "Background image",
+        "type": "image",
+        "info": "1920 x 1200px .jpg recommended"
+      },
+      {
+        "id": "background-color",
+        "label": "Background",
+        "type": "color"
+      },
+      {
+        "id": "body-text-color",
+        "label": "Body text",
+        "type": "color"
+      },
+      {
+        "id": "accent-color",
+        "label": "Accent",
+        "type": "color"
+      },
+      {
+        "id": "heading-color",
+        "label": "Heading",
+        "type": "color"
+      },
+      {
+        "id": "meta-color",
+        "label": "Caption text",
+        "type": "color"
+      },
+      {
+        "id": "error-color",
+        "label": "Error",
+        "type": "color"
+      },
+      {
+        "id": "border-color",
+        "label": "Border",
+        "type": "color"
+      },
+      {
+        "content": "Buttons",
+        "type": "header"
+      },
+      {
+        "id": "primary-button-background",
+        "label": "Primary button background",
+        "type": "color"
+      },
+      {
+        "id": "primary-button-color",
+        "label": "Primary button text",
+        "type": "color"
+      },
+      {
+        "id": "secondary-button-background",
+        "label": "Secondary button background",
+        "type": "color"
+      },
+      {
+        "id": "secondary-button-color",
+        "label": "Secondary button text",
+        "type": "color"
+      },
+      {
+        "id": "disabled-button-background",
+        "label": "Disabled button background",
+        "type": "color"
+      },
+      {
+        "id": "disabled-button-color",
+        "label": "Disabled button text",
+        "type": "color"
+      },
+      {
+        "content": "Header",
+        "type": "header"
+      },
+      {
+        "id": "header-text-color",
+        "label": "Text",
+        "type": "color"
+      },
+      {
+        "id": "header-promo-background-color",
+        "label": "Top bar background",
+        "type": "color"
+      },
+      {
+        "id": "header-promo-text-color",
+        "label": "Top bar text",
+        "type": "color"
+      },
+      {
+        "id": "header-promo-link-color",
+        "label": "Top bar link",
+        "type": "color"
+      },
+      {
+        "content": "Footer",
+        "type": "header"
+      },
+      {
+        "id": "footer-text-color",
+        "label": "Text",
+        "type": "color"
+      }
+    ],
+    "name": "Colors"
+  },
+  {
+    "settings": [
+      {
+        "id": "body-font",
+        "default": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "label": "Body font",
+        "type": "select",
+        "options": [
+          {
+            "value": "'Source Sans Pro', sans-serif",
+            "label": "Source Sans Pro",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Lato, sans-serif",
+            "label": "Lato",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Open Sans', sans-serif",
+            "label": "Open Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Roboto, sans-serif",
+            "label": "Roboto",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Karla, sans-serif",
+            "label": "Karla",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'PT Sans', sans-serif",
+            "label": "PT Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Questrial, sans-serif",
+            "label": "Questrial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Varela Round', sans-serif",
+            "label": "Varela Round",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "label": "Helvetica \/ Arial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Archivo Narrow', sans-serif",
+            "label": "Archivo Narrow",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Fjalla One', sans-serif",
+            "label": "Fjalla One",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Titillium Web', sans-serif",
+            "label": "Titillium Web",
+            "group": "Geometric Sans Serif"
+          },
+          {
+            "value": "Crimson, sans-serif",
+            "label": "Crimson",
+            "group": "Serif"
+          },
+          {
+            "value": "Alegreya, serif",
+            "label": "Alegreya",
+            "group": "Serif"
+          },
+          {
+            "value": "'PT Serif', serif",
+            "label": "PT Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Playfair Display', serif",
+            "label": "Playfair Display",
+            "group": "Serif"
+          },
+          {
+            "value": "Lora, serif",
+            "label": "Lora",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noto Serif', serif",
+            "label": "Noto Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noticia Text', serif",
+            "label": "Noticia Text",
+            "group": "Serif"
+          },
+          {
+            "value": "Merriweather, serif",
+            "label": "Merriweather",
+            "group": "Serif"
+          },
+          {
+            "value": "'Droid Serif', serif",
+            "label": "Droid Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "Volkhov, serif",
+            "label": "Volkhov",
+            "group": "Serif"
+          },
+          {
+            "value": "Vollkorn, serif",
+            "label": "Vollkorn",
+            "group": "Serif"
+          },
+          {
+            "value": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+            "label": "Times",
+            "group": "Serif"
+          },
+          {
+            "value": "Georgia, Times, 'Times New Roman', serif",
+            "label": "Georgia",
+            "group": "Serif"
+          },
+          {
+            "value": "Arvo, serif",
+            "label": "Arvo",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Josefin Slab', serif",
+            "label": "Josefin Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Bitter, serif",
+            "label": "Bitter",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Roboto Slab', serif",
+            "label": "Roboto Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Kreon, serif",
+            "label": "Kreon",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'PT Mono', monospace",
+            "label": "PT Mono",
+            "group": "Mono"
+          }
+        ]
+      },
+      {
+        "content": "Store title",
+        "type": "header"
+      },
+      {
+        "id": "store-title-font",
+        "default": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "label": "Font",
+        "type": "select",
+        "options": [
+          {
+            "value": "'Source Sans Pro', sans-serif",
+            "label": "Source Sans Pro",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Lato, sans-serif",
+            "label": "Lato",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Open Sans', sans-serif",
+            "label": "Open Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Roboto, sans-serif",
+            "label": "Roboto",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Karla, sans-serif",
+            "label": "Karla",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'PT Sans', sans-serif",
+            "label": "PT Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Questrial, sans-serif",
+            "label": "Questrial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Varela Round', sans-serif",
+            "label": "Varela Round",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "label": "Helvetica \/ Arial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Archivo Narrow', sans-serif",
+            "label": "Archivo Narrow",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Fjalla One', sans-serif",
+            "label": "Fjalla One",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Titillium Web', sans-serif",
+            "label": "Titillium Web",
+            "group": "Geometric Sans Serif"
+          },
+          {
+            "value": "Crimson, sans-serif",
+            "label": "Crimson",
+            "group": "Serif"
+          },
+          {
+            "value": "Alegreya, serif",
+            "label": "Alegreya",
+            "group": "Serif"
+          },
+          {
+            "value": "'PT Serif', serif",
+            "label": "PT Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Playfair Display', serif",
+            "label": "Playfair Display",
+            "group": "Serif"
+          },
+          {
+            "value": "Lora, serif",
+            "label": "Lora",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noto Serif', serif",
+            "label": "Noto Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noticia Text', serif",
+            "label": "Noticia Text",
+            "group": "Serif"
+          },
+          {
+            "value": "Merriweather, serif",
+            "label": "Merriweather",
+            "group": "Serif"
+          },
+          {
+            "value": "'Droid Serif', serif",
+            "label": "Droid Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "Volkhov, serif",
+            "label": "Volkhov",
+            "group": "Serif"
+          },
+          {
+            "value": "Vollkorn, serif",
+            "label": "Vollkorn",
+            "group": "Serif"
+          },
+          {
+            "value": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+            "label": "Times",
+            "group": "Serif"
+          },
+          {
+            "value": "Georgia, Times, 'Times New Roman', serif",
+            "label": "Georgia",
+            "group": "Serif"
+          },
+          {
+            "value": "Arvo, serif",
+            "label": "Arvo",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Josefin Slab', serif",
+            "label": "Josefin Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Bitter, serif",
+            "label": "Bitter",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Roboto Slab', serif",
+            "label": "Roboto Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Kreon, serif",
+            "label": "Kreon",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'PT Mono', monospace",
+            "label": "PT Mono",
+            "group": "Mono"
+          }
+        ]
+      },
+      {
+        "id": "store-title-font-weight",
+        "label": "Style",
+        "type": "select",
+        "options": [
+          {
+            "value": "400",
+            "label": "Normal"
+          },
+          {
+            "value": "700",
+            "label": "Bold"
+          }
+        ]
+      },
+      {
+        "id": "store-title-font-small-caps",
+        "label": "Capitalize",
+        "type": "checkbox"
+      },
+      {
+        "content": "Headings",
+        "type": "header"
+      },
+      {
+        "id": "heading-font",
+        "default": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "label": "Font",
+        "type": "select",
+        "options": [
+          {
+            "value": "'Source Sans Pro', sans-serif",
+            "label": "Source Sans Pro",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Lato, sans-serif",
+            "label": "Lato",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Open Sans', sans-serif",
+            "label": "Open Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Roboto, sans-serif",
+            "label": "Roboto",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Karla, sans-serif",
+            "label": "Karla",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'PT Sans', sans-serif",
+            "label": "PT Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Questrial, sans-serif",
+            "label": "Questrial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Varela Round', sans-serif",
+            "label": "Varela Round",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "label": "Helvetica \/ Arial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Archivo Narrow', sans-serif",
+            "label": "Archivo Narrow",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Fjalla One', sans-serif",
+            "label": "Fjalla One",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Titillium Web', sans-serif",
+            "label": "Titillium Web",
+            "group": "Geometric Sans Serif"
+          },
+          {
+            "value": "Crimson, sans-serif",
+            "label": "Crimson",
+            "group": "Serif"
+          },
+          {
+            "value": "Alegreya, serif",
+            "label": "Alegreya",
+            "group": "Serif"
+          },
+          {
+            "value": "'PT Serif', serif",
+            "label": "PT Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Playfair Display', serif",
+            "label": "Playfair Display",
+            "group": "Serif"
+          },
+          {
+            "value": "Lora, serif",
+            "label": "Lora",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noto Serif', serif",
+            "label": "Noto Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noticia Text', serif",
+            "label": "Noticia Text",
+            "group": "Serif"
+          },
+          {
+            "value": "Merriweather, serif",
+            "label": "Merriweather",
+            "group": "Serif"
+          },
+          {
+            "value": "'Droid Serif', serif",
+            "label": "Droid Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "Volkhov, serif",
+            "label": "Volkhov",
+            "group": "Serif"
+          },
+          {
+            "value": "Vollkorn, serif",
+            "label": "Vollkorn",
+            "group": "Serif"
+          },
+          {
+            "value": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+            "label": "Times",
+            "group": "Serif"
+          },
+          {
+            "value": "Georgia, Times, 'Times New Roman', serif",
+            "label": "Georgia",
+            "group": "Serif"
+          },
+          {
+            "value": "Arvo, serif",
+            "label": "Arvo",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Josefin Slab', serif",
+            "label": "Josefin Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Bitter, serif",
+            "label": "Bitter",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Roboto Slab', serif",
+            "label": "Roboto Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Kreon, serif",
+            "label": "Kreon",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'PT Mono', monospace",
+            "label": "PT Mono",
+            "group": "Mono"
+          }
+        ]
+      },
+      {
+        "id": "heading-font-weight",
+        "label": "Style",
+        "type": "select",
+        "options": [
+          {
+            "value": "400",
+            "label": "Normal"
+          },
+          {
+            "value": "700",
+            "label": "Bold"
+          }
+        ]
+      },
+      {
+        "id": "heading-font-small-caps",
+        "label": "Capitalize",
+        "type": "checkbox"
+      },
+      {
+        "content": "Section title",
+        "type": "header"
+      },
+      {
+        "id": "section-heading-font",
+        "default": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "label": "Font",
+        "type": "select",
+        "options": [
+          {
+            "value": "'Source Sans Pro', sans-serif",
+            "label": "Source Sans Pro",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Lato, sans-serif",
+            "label": "Lato",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Open Sans', sans-serif",
+            "label": "Open Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Roboto, sans-serif",
+            "label": "Roboto",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Karla, sans-serif",
+            "label": "Karla",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'PT Sans', sans-serif",
+            "label": "PT Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Questrial, sans-serif",
+            "label": "Questrial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Varela Round', sans-serif",
+            "label": "Varela Round",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "label": "Helvetica \/ Arial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Archivo Narrow', sans-serif",
+            "label": "Archivo Narrow",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Fjalla One', sans-serif",
+            "label": "Fjalla One",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Titillium Web', sans-serif",
+            "label": "Titillium Web",
+            "group": "Geometric Sans Serif"
+          },
+          {
+            "value": "Crimson, sans-serif",
+            "label": "Crimson",
+            "group": "Serif"
+          },
+          {
+            "value": "Alegreya, serif",
+            "label": "Alegreya",
+            "group": "Serif"
+          },
+          {
+            "value": "'PT Serif', serif",
+            "label": "PT Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Playfair Display', serif",
+            "label": "Playfair Display",
+            "group": "Serif"
+          },
+          {
+            "value": "Lora, serif",
+            "label": "Lora",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noto Serif', serif",
+            "label": "Noto Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noticia Text', serif",
+            "label": "Noticia Text",
+            "group": "Serif"
+          },
+          {
+            "value": "Merriweather, serif",
+            "label": "Merriweather",
+            "group": "Serif"
+          },
+          {
+            "value": "'Droid Serif', serif",
+            "label": "Droid Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "Volkhov, serif",
+            "label": "Volkhov",
+            "group": "Serif"
+          },
+          {
+            "value": "Vollkorn, serif",
+            "label": "Vollkorn",
+            "group": "Serif"
+          },
+          {
+            "value": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+            "label": "Times",
+            "group": "Serif"
+          },
+          {
+            "value": "Georgia, Times, 'Times New Roman', serif",
+            "label": "Georgia",
+            "group": "Serif"
+          },
+          {
+            "value": "Arvo, serif",
+            "label": "Arvo",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Josefin Slab', serif",
+            "label": "Josefin Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Bitter, serif",
+            "label": "Bitter",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Roboto Slab', serif",
+            "label": "Roboto Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Kreon, serif",
+            "label": "Kreon",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'PT Mono', monospace",
+            "label": "PT Mono",
+            "group": "Mono"
+          }
+        ]
+      },
+      {
+        "id": "section-heading-font-weight",
+        "label": "Style",
+        "type": "select",
+        "options": [
+          {
+            "value": "400",
+            "label": "Normal"
+          },
+          {
+            "value": "700",
+            "label": "Bold"
+          }
+        ]
+      },
+      {
+        "content": "Caption",
+        "type": "header"
+      },
+      {
+        "id": "meta-font",
+        "default": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "label": "Font",
+        "type": "select",
+        "options": [
+          {
+            "value": "'Source Sans Pro', sans-serif",
+            "label": "Source Sans Pro",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Lato, sans-serif",
+            "label": "Lato",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Open Sans', sans-serif",
+            "label": "Open Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Roboto, sans-serif",
+            "label": "Roboto",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Karla, sans-serif",
+            "label": "Karla",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'PT Sans', sans-serif",
+            "label": "PT Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Questrial, sans-serif",
+            "label": "Questrial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Varela Round', sans-serif",
+            "label": "Varela Round",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "label": "Helvetica \/ Arial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Archivo Narrow', sans-serif",
+            "label": "Archivo Narrow",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Fjalla One', sans-serif",
+            "label": "Fjalla One",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Titillium Web', sans-serif",
+            "label": "Titillium Web",
+            "group": "Geometric Sans Serif"
+          },
+          {
+            "value": "Crimson, sans-serif",
+            "label": "Crimson",
+            "group": "Serif"
+          },
+          {
+            "value": "Alegreya, serif",
+            "label": "Alegreya",
+            "group": "Serif"
+          },
+          {
+            "value": "'PT Serif', serif",
+            "label": "PT Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Playfair Display', serif",
+            "label": "Playfair Display",
+            "group": "Serif"
+          },
+          {
+            "value": "Lora, serif",
+            "label": "Lora",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noto Serif', serif",
+            "label": "Noto Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noticia Text', serif",
+            "label": "Noticia Text",
+            "group": "Serif"
+          },
+          {
+            "value": "Merriweather, serif",
+            "label": "Merriweather",
+            "group": "Serif"
+          },
+          {
+            "value": "'Droid Serif', serif",
+            "label": "Droid Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "Volkhov, serif",
+            "label": "Volkhov",
+            "group": "Serif"
+          },
+          {
+            "value": "Vollkorn, serif",
+            "label": "Vollkorn",
+            "group": "Serif"
+          },
+          {
+            "value": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+            "label": "Times",
+            "group": "Serif"
+          },
+          {
+            "value": "Georgia, Times, 'Times New Roman', serif",
+            "label": "Georgia",
+            "group": "Serif"
+          },
+          {
+            "value": "Arvo, serif",
+            "label": "Arvo",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Josefin Slab', serif",
+            "label": "Josefin Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Bitter, serif",
+            "label": "Bitter",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Roboto Slab', serif",
+            "label": "Roboto Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Kreon, serif",
+            "label": "Kreon",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'PT Mono', monospace",
+            "label": "PT Mono",
+            "group": "Mono"
+          }
+        ]
+      },
+      {
+        "id": "meta-font-weight",
+        "label": "Style",
+        "type": "select",
+        "options": [
+          {
+            "value": "400",
+            "label": "Normal"
+          },
+          {
+            "value": "700",
+            "label": "Bold"
+          }
+        ]
+      },
+      {
+        "content": "Button",
+        "type": "header"
+      },
+      {
+        "id": "button-font",
+        "default": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+        "label": "Font",
+        "type": "select",
+        "options": [
+          {
+            "value": "'Source Sans Pro', sans-serif",
+            "label": "Source Sans Pro",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Lato, sans-serif",
+            "label": "Lato",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Open Sans', sans-serif",
+            "label": "Open Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Roboto, sans-serif",
+            "label": "Roboto",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Karla, sans-serif",
+            "label": "Karla",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'PT Sans', sans-serif",
+            "label": "PT Sans",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "Questrial, sans-serif",
+            "label": "Questrial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Varela Round', sans-serif",
+            "label": "Varela Round",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Helvetica Neue', Helvetica, Arial, sans-serif",
+            "label": "Helvetica \/ Arial",
+            "group": "Sans Serif"
+          },
+          {
+            "value": "'Archivo Narrow', sans-serif",
+            "label": "Archivo Narrow",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Fjalla One', sans-serif",
+            "label": "Fjalla One",
+            "group": "Condensed Sans Serif"
+          },
+          {
+            "value": "'Titillium Web', sans-serif",
+            "label": "Titillium Web",
+            "group": "Geometric Sans Serif"
+          },
+          {
+            "value": "Crimson, sans-serif",
+            "label": "Crimson",
+            "group": "Serif"
+          },
+          {
+            "value": "Alegreya, serif",
+            "label": "Alegreya",
+            "group": "Serif"
+          },
+          {
+            "value": "'PT Serif', serif",
+            "label": "PT Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Playfair Display', serif",
+            "label": "Playfair Display",
+            "group": "Serif"
+          },
+          {
+            "value": "Lora, serif",
+            "label": "Lora",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noto Serif', serif",
+            "label": "Noto Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "'Noticia Text', serif",
+            "label": "Noticia Text",
+            "group": "Serif"
+          },
+          {
+            "value": "Merriweather, serif",
+            "label": "Merriweather",
+            "group": "Serif"
+          },
+          {
+            "value": "'Droid Serif', serif",
+            "label": "Droid Serif",
+            "group": "Serif"
+          },
+          {
+            "value": "Volkhov, serif",
+            "label": "Volkhov",
+            "group": "Serif"
+          },
+          {
+            "value": "Vollkorn, serif",
+            "label": "Vollkorn",
+            "group": "Serif"
+          },
+          {
+            "value": "TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif",
+            "label": "Times",
+            "group": "Serif"
+          },
+          {
+            "value": "Georgia, Times, 'Times New Roman', serif",
+            "label": "Georgia",
+            "group": "Serif"
+          },
+          {
+            "value": "Arvo, serif",
+            "label": "Arvo",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Josefin Slab', serif",
+            "label": "Josefin Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Bitter, serif",
+            "label": "Bitter",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'Roboto Slab', serif",
+            "label": "Roboto Slab",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "Kreon, serif",
+            "label": "Kreon",
+            "group": "Slab Serif"
+          },
+          {
+            "value": "'PT Mono', monospace",
+            "label": "PT Mono",
+            "group": "Mono"
+          }
+        ]
+      },
+      {
+        "id": "button-font-weight",
+        "label": "Style",
+        "type": "select",
+        "options": [
+          {
+            "value": "400",
+            "label": "Normal"
+          },
+          {
+            "value": "700",
+            "label": "Bold"
+          }
+        ]
+      },
+      {
+        "id": "button-font-small-caps",
+        "label": "Capitalize",
+        "type": "checkbox"
+      }
+    ],
+    "name": "Typography"
+  },
+  {
+    "settings": [
+      {
+        "content": "Logo",
+        "type": "header"
+      },
+      {
+        "id": "use-logo",
+        "label": "Use a custom logo",
+        "type": "checkbox"
+      },
+      {
+        "id": "logo.png",
+        "max-height": 200,
+        "max-width": 450,
+        "label": "Logo image",
+        "type": "image",
+        "info": "450px wide recommended"
+      },
+      {
+        "id": "logo-max-width",
+        "label": "Logo width",
+        "type": "text",
+        "info": "Custom logo width (in pixels)"
+      },
+      {
+        "content": "Top bar",
+        "type": "header"
+      },
+      {
+        "id": "header-promo",
+        "label": "Enable top bar",
+        "type": "checkbox"
+      },
+      {
+        "id": "header-promo-text",
+        "label": "Text",
+        "type": "text"
+      },
+      {
+        "content": "Mega navigation ([?](http:\/\/www.pixelunion.net\/support\/pacific-theme-manual\/#meganav))",
+        "type": "header"
+      },
+      {
+        "id": "mega-nav-item-text",
+        "label": "Navigation name",
+        "type": "text",
+        "info": "This will replace \"mega nav\" in your menu."
+      },
+      {
+        "content": "Column 1",
+        "type": "paragraph"
+      },
+      {
+        "id": "mega-nav-1",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "mega-nav-1-list",
+        "label": "Choose menu",
+        "type": "link_list"
+      },
+      {
+        "id": "mega-nav-1-use-image",
+        "label": "Show image",
+        "type": "checkbox"
+      },
+      {
+        "id": "mega-nav-1.jpg",
+        "max-height": 900,
+        "max-width": 900,
+        "label": "Image",
+        "type": "image",
+        "info": "900 x 900px .jpg required"
+      },
+      {
+        "id": "mega-nav-1-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "content": "Column 2",
+        "type": "paragraph"
+      },
+      {
+        "id": "mega-nav-2",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "mega-nav-2-list",
+        "label": "Choose menu",
+        "type": "link_list"
+      },
+      {
+        "id": "mega-nav-2-use-image",
+        "label": "Show image",
+        "type": "checkbox"
+      },
+      {
+        "id": "mega-nav-2.jpg",
+        "max-height": 900,
+        "max-width": 900,
+        "label": "Image",
+        "type": "image",
+        "info": "900 x 900px .jpg required"
+      },
+      {
+        "id": "mega-nav-2-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "content": "Column 3",
+        "type": "paragraph"
+      },
+      {
+        "id": "mega-nav-3",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "mega-nav-3-list",
+        "label": "Choose menu",
+        "type": "link_list"
+      },
+      {
+        "id": "mega-nav-3-use-image",
+        "label": "Show image",
+        "type": "checkbox"
+      },
+      {
+        "id": "mega-nav-3.jpg",
+        "max-height": 900,
+        "max-width": 900,
+        "label": "Image",
+        "type": "image",
+        "info": "900 x 900px .jpg required"
+      },
+      {
+        "id": "mega-nav-3-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "content": "Column 4",
+        "type": "paragraph"
+      },
+      {
+        "id": "mega-nav-4",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "mega-nav-4-list",
+        "label": "Choose menu",
+        "type": "link_list"
+      },
+      {
+        "id": "mega-nav-4-use-image",
+        "label": "Show image",
+        "type": "checkbox"
+      },
+      {
+        "id": "mega-nav-4.jpg",
+        "max-height": 900,
+        "max-width": 900,
+        "label": "Image",
+        "type": "image",
+        "info": "900 x 900px .jpg required"
+      },
+      {
+        "id": "mega-nav-4-url",
+        "label": "Link URL",
+        "type": "text"
+      }
+    ],
+    "name": "Header"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-sidebar",
+        "label": "Enable sidebar",
+        "type": "select",
+        "options": [
+          {
+            "value": "all",
+            "label": "All pages"
+          },
+          {
+            "value": "not-home",
+            "label": "All except home page"
+          },
+          {
+            "value": "none",
+            "label": "Disabled"
+          }
+        ],
+        "info": "The \"all\" option denotes the Home page, Collections List page, and Collection pages."
+      },
+      {
+        "id": "sidebar-link-list-1",
+        "label": "Choose menu 1",
+        "type": "link_list"
+      },
+      {
+        "id": "sidebar-link-list-2",
+        "label": "Choose menu 2",
+        "type": "link_list"
+      },
+      {
+        "id": "sidebar-link-list-3",
+        "label": "Choose menu 3",
+        "type": "link_list"
+      }
+    ],
+    "name": "Sidebar"
+  },
+  {
+    "settings": [
+      {
+        "id": "footer-show-payment-options",
+        "label": "Enable payment icons",
+        "type": "checkbox"
+      },
+      {
+        "content": "Featured Images",
+        "type": "header"
+      },
+      {
+        "id": "footer-promo-1",
+        "label": "Enable featured image 1",
+        "type": "checkbox"
+      },
+      {
+        "id": "footer-promo-1.png",
+        "label": "Image",
+        "type": "image"
+      },
+      {
+        "id": "footer-promo-1-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "footer-promo-2",
+        "label": "Enable featured image 2",
+        "type": "checkbox"
+      },
+      {
+        "id": "footer-promo-2.png",
+        "label": "Image",
+        "type": "image"
+      },
+      {
+        "id": "footer-promo-2-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "footer-promo-3",
+        "label": "Enable featured image 3",
+        "type": "checkbox"
+      },
+      {
+        "id": "footer-promo-3.png",
+        "label": "Image",
+        "type": "image"
+      },
+      {
+        "id": "footer-promo-3-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "content": "Modules",
+        "type": "header"
+      },
+      {
+        "content": "Select up to three modules to show in your footer.",
+        "type": "paragraph"
+      },
+      {
+        "id": "footer-module-1",
+        "default": "A",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Menus"
+          },
+          {
+            "value": "B",
+            "label": "Featured Content"
+          },
+          {
+            "value": "C",
+            "label": "Tweet"
+          },
+          {
+            "value": "D",
+            "label": "Instagram"
+          },
+          {
+            "value": "E",
+            "label": "Newsletter and Social media"
+          }
+        ]
+      },
+      {
+        "id": "footer-module-2",
+        "default": "C",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Menus"
+          },
+          {
+            "value": "B",
+            "label": "Featured Content"
+          },
+          {
+            "value": "C",
+            "label": "Tweet"
+          },
+          {
+            "value": "D",
+            "label": "Instagram"
+          },
+          {
+            "value": "E",
+            "label": "Newsletter and Social media"
+          }
+        ]
+      },
+      {
+        "id": "footer-module-3",
+        "default": "D",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Menus"
+          },
+          {
+            "value": "B",
+            "label": "Featured Content"
+          },
+          {
+            "value": "C",
+            "label": "Tweet"
+          },
+          {
+            "value": "D",
+            "label": "Instagram"
+          },
+          {
+            "value": "E",
+            "label": "Newsletter and Social media"
+          }
+        ]
+      },
+      {
+        "id": "footer-titles",
+        "label": "Show titles",
+        "type": "checkbox"
+      },
+      {
+        "content": "Menus",
+        "type": "header"
+      },
+      {
+        "id": "footer-link-list-1",
+        "label": "Choose menu 1",
+        "type": "link_list"
+      },
+      {
+        "id": "footer-link-list-2",
+        "label": "Choose menu 2",
+        "type": "link_list"
+      },
+      {
+        "content": "Featured Content",
+        "type": "header"
+      },
+      {
+        "id": "footer-text-box-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "footer-text-box",
+        "label": "Text",
+        "type": "textarea"
+      }
+    ],
+    "name": "Footer"
+  },
+  {
+    "settings": [
+      {
+        "content": "Choose your home page sections and their order.",
+        "type": "paragraph"
+      },
+      {
+        "id": "home-module-1",
+        "default": "A",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Slideshow"
+          },
+          {
+            "value": "B",
+            "label": "Video"
+          },
+          {
+            "value": "C",
+            "label": "Feature Row 1"
+          },
+          {
+            "value": "D",
+            "label": "Feature Row 2"
+          },
+          {
+            "value": "E",
+            "label": "Feature Row 3"
+          },
+          {
+            "value": "F",
+            "label": "Featured collections"
+          },
+          {
+            "value": "G",
+            "label": "Featured products"
+          },
+          {
+            "value": "H",
+            "label": "Featured content"
+          },
+          {
+            "value": "I",
+            "label": "Featured blog posts"
+          }
+        ]
+      },
+      {
+        "id": "home-module-2",
+        "default": "B",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Slideshow"
+          },
+          {
+            "value": "B",
+            "label": "Video"
+          },
+          {
+            "value": "C",
+            "label": "Feature Row 1"
+          },
+          {
+            "value": "D",
+            "label": "Feature Row 2"
+          },
+          {
+            "value": "E",
+            "label": "Feature Row 3"
+          },
+          {
+            "value": "F",
+            "label": "Featured collections"
+          },
+          {
+            "value": "G",
+            "label": "Featured products"
+          },
+          {
+            "value": "H",
+            "label": "Featured content"
+          },
+          {
+            "value": "I",
+            "label": "Featured blog posts"
+          }
+        ]
+      },
+      {
+        "id": "home-module-3",
+        "default": "C",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Slideshow"
+          },
+          {
+            "value": "B",
+            "label": "Video"
+          },
+          {
+            "value": "C",
+            "label": "Feature Row 1"
+          },
+          {
+            "value": "D",
+            "label": "Feature Row 2"
+          },
+          {
+            "value": "E",
+            "label": "Feature Row 3"
+          },
+          {
+            "value": "F",
+            "label": "Featured collections"
+          },
+          {
+            "value": "G",
+            "label": "Featured products"
+          },
+          {
+            "value": "H",
+            "label": "Featured content"
+          },
+          {
+            "value": "I",
+            "label": "Featured blog posts"
+          }
+        ]
+      },
+      {
+        "id": "home-module-4",
+        "default": "D",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Slideshow"
+          },
+          {
+            "value": "B",
+            "label": "Video"
+          },
+          {
+            "value": "C",
+            "label": "Feature Row 1"
+          },
+          {
+            "value": "D",
+            "label": "Feature Row 2"
+          },
+          {
+            "value": "E",
+            "label": "Feature Row 3"
+          },
+          {
+            "value": "F",
+            "label": "Featured collections"
+          },
+          {
+            "value": "G",
+            "label": "Featured products"
+          },
+          {
+            "value": "H",
+            "label": "Featured content"
+          },
+          {
+            "value": "I",
+            "label": "Featured blog posts"
+          }
+        ]
+      },
+      {
+        "id": "home-module-5",
+        "default": "E",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Slideshow"
+          },
+          {
+            "value": "B",
+            "label": "Video"
+          },
+          {
+            "value": "C",
+            "label": "Feature Row 1"
+          },
+          {
+            "value": "D",
+            "label": "Feature Row 2"
+          },
+          {
+            "value": "E",
+            "label": "Feature Row 3"
+          },
+          {
+            "value": "F",
+            "label": "Featured collections"
+          },
+          {
+            "value": "G",
+            "label": "Featured products"
+          },
+          {
+            "value": "H",
+            "label": "Featured content"
+          },
+          {
+            "value": "I",
+            "label": "Featured blog posts"
+          }
+        ]
+      },
+      {
+        "id": "home-module-6",
+        "default": "F",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Slideshow"
+          },
+          {
+            "value": "B",
+            "label": "Video"
+          },
+          {
+            "value": "C",
+            "label": "Feature Row 1"
+          },
+          {
+            "value": "D",
+            "label": "Feature Row 2"
+          },
+          {
+            "value": "E",
+            "label": "Feature Row 3"
+          },
+          {
+            "value": "F",
+            "label": "Featured collections"
+          },
+          {
+            "value": "G",
+            "label": "Featured products"
+          },
+          {
+            "value": "H",
+            "label": "Featured content"
+          },
+          {
+            "value": "I",
+            "label": "Featured blog posts"
+          }
+        ]
+      },
+      {
+        "id": "home-module-7",
+        "default": "G",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Slideshow"
+          },
+          {
+            "value": "B",
+            "label": "Video"
+          },
+          {
+            "value": "C",
+            "label": "Feature Row 1"
+          },
+          {
+            "value": "D",
+            "label": "Feature Row 2"
+          },
+          {
+            "value": "E",
+            "label": "Feature Row 3"
+          },
+          {
+            "value": "F",
+            "label": "Featured collections"
+          },
+          {
+            "value": "G",
+            "label": "Featured products"
+          },
+          {
+            "value": "H",
+            "label": "Featured content"
+          },
+          {
+            "value": "I",
+            "label": "Featured blog posts"
+          }
+        ]
+      },
+      {
+        "id": "home-module-8",
+        "default": "H",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Slideshow"
+          },
+          {
+            "value": "B",
+            "label": "Video"
+          },
+          {
+            "value": "C",
+            "label": "Feature Row 1"
+          },
+          {
+            "value": "D",
+            "label": "Feature Row 2"
+          },
+          {
+            "value": "E",
+            "label": "Feature Row 3"
+          },
+          {
+            "value": "F",
+            "label": "Featured collections"
+          },
+          {
+            "value": "G",
+            "label": "Featured products"
+          },
+          {
+            "value": "H",
+            "label": "Featured content"
+          },
+          {
+            "value": "I",
+            "label": "Featured blog posts"
+          }
+        ]
+      },
+      {
+        "id": "home-module-9",
+        "default": "I",
+        "type": "select",
+        "options": [
+          {
+            "value": "none",
+            "label": "(none)"
+          },
+          {
+            "value": "A",
+            "label": "Slideshow"
+          },
+          {
+            "value": "B",
+            "label": "Video"
+          },
+          {
+            "value": "C",
+            "label": "Feature Row 1"
+          },
+          {
+            "value": "D",
+            "label": "Feature Row 2"
+          },
+          {
+            "value": "E",
+            "label": "Feature Row 3"
+          },
+          {
+            "value": "F",
+            "label": "Featured collections"
+          },
+          {
+            "value": "G",
+            "label": "Featured products"
+          },
+          {
+            "value": "H",
+            "label": "Featured content"
+          },
+          {
+            "value": "I",
+            "label": "Featured blog posts"
+          }
+        ]
+      },
+      {
+        "content": "Each section can only be used once on the home page.",
+        "type": "paragraph"
+      }
+    ],
+    "name": "Home page - layout"
+  },
+  {
+    "settings": [
+      {
+        "content": "Options",
+        "type": "header"
+      },
+      {
+        "id": "enable-slideshow",
+        "default": true,
+        "label": "Enable slideshow",
+        "type": "checkbox"
+      },
+      {
+        "id": "slideshow-layout",
+        "label": "Choose width",
+        "type": "select",
+        "info": "If the sidebar is enabled this will revert to content width.",
+        "options": [
+          {
+            "value": "content-width",
+            "label": "Content width"
+          },
+          {
+            "value": "full-width",
+            "label": "Full width"
+          }
+        ]
+      },
+      {
+        "id": "slideshow-transition",
+        "label": "Choose slide transition",
+        "type": "select",
+        "options": [
+          {
+            "value": "transition-fade",
+            "label": "Fade"
+          },
+          {
+            "value": "transition-slide",
+            "label": "Slide"
+          }
+        ]
+      },
+      {
+        "id": "slideshow-autoplay",
+        "label": "Auto-rotate slides",
+        "type": "checkbox"
+      },
+      {
+        "id": "slideshow-autoplay-delay",
+        "default": "4",
+        "label": "Auto-rotate after:",
+        "type": "select",
+        "options": [
+          {
+            "value": "4",
+            "label": "4 seconds"
+          },
+          {
+            "value": "5",
+            "label": "5 seconds"
+          },
+          {
+            "value": "6",
+            "label": "6 seconds"
+          },
+          {
+            "value": "7",
+            "label": "7 seconds"
+          },
+          {
+            "value": "8",
+            "label": "8 seconds"
+          }
+        ]
+      },
+      {
+        "content": "Slide 1",
+        "type": "header"
+      },
+      {
+        "id": "show-slide-1",
+        "label": "Enable slide",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-1-content-alignment",
+        "label": "Align text",
+        "type": "select",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "slide-1-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-1-text-color",
+        "label": "Text color",
+        "type": "color"
+      },
+      {
+        "id": "slide-1-image.jpg",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .jpg recommended"
+      },
+      {
+        "id": "slide-1-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "slide-1-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "slide-1-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "slide-1-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "content": "Slide 2",
+        "type": "header"
+      },
+      {
+        "id": "show-slide-2",
+        "label": "Enable slide",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-2-content-alignment",
+        "label": "Align text",
+        "type": "select",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "slide-2-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-2-text-color",
+        "label": "Text color",
+        "type": "color"
+      },
+      {
+        "id": "slide-2-image.jpg",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .jpg recommended"
+      },
+      {
+        "id": "slide-2-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "slide-2-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "slide-2-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "slide-2-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "content": "Slide 3",
+        "type": "header"
+      },
+      {
+        "id": "show-slide-3",
+        "label": "Enable slide",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-3-content-alignment",
+        "label": "Align text",
+        "type": "select",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "slide-3-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-3-text-color",
+        "label": "Text color",
+        "type": "color"
+      },
+      {
+        "id": "slide-3-image.jpg",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .jpg recommended"
+      },
+      {
+        "id": "slide-3-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "slide-3-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "slide-3-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "slide-3-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "content": "Slide 4",
+        "type": "header"
+      },
+      {
+        "id": "show-slide-4",
+        "label": "Enable slide",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-4-content-alignment",
+        "label": "Align text",
+        "type": "select",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "slide-4-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-4-text-color",
+        "label": "Text color",
+        "type": "color"
+      },
+      {
+        "id": "slide-4-image.jpg",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .jpg recommended"
+      },
+      {
+        "id": "slide-4-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "slide-4-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "slide-4-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "slide-4-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "content": "Slide 5",
+        "type": "header"
+      },
+      {
+        "id": "show-slide-5",
+        "label": "Enable slide",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-5-content-alignment",
+        "label": "Align text",
+        "type": "select",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "slide-5-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox"
+      },
+      {
+        "id": "slide-5-text-color",
+        "label": "Text color",
+        "type": "color"
+      },
+      {
+        "id": "slide-5-image.jpg",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .jpg recommended"
+      },
+      {
+        "id": "slide-5-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "slide-5-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "slide-5-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "slide-5-url",
+        "label": "Link URL",
+        "type": "text"
+      }
+    ],
+    "name": "Home page - slideshow"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-video",
+        "default": true,
+        "label": "Enable video",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-video-embed",
+        "label": "Embed code ([?](http:\/\/www.pixelunion.net\/support\/pacific-theme-manual\/#video))",
+        "type": "textarea"
+      },
+      {
+        "id": "home-video-screenshot.png",
+        "max-height": 640,
+        "max-width": 1080,
+        "label": "Video screenshot",
+        "type": "image",
+        "info": "1080 x 640px recommended"
+      },
+      {
+        "id": "home-video-text-color",
+        "label": "Choose text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-video-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-video-cta",
+        "label": "Button text",
+        "type": "text"
+      },
+      {
+        "id": "home-video-url",
+        "label": "Link URL",
+        "type": "text"
+      }
+    ],
+    "name": "Home page - video"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-featured-row-1",
+        "default": true,
+        "label": "Enable featured images 1",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-row-1-title",
+        "label": "Section title",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-row-1-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox",
+        "info": "Only appears when \"text shade\" is set to \"light\"."
+      },
+      {
+        "content": "Feature 1",
+        "type": "header"
+      },
+      {
+        "id": "home-feature-1",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-1-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-1-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-1-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-1-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-1-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-1-text-position",
+        "label": "Align text",
+        "type": "select",
+        "info": "Will default to \"center\" if three features are shown in a row.",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-1.png",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .png recommended"
+      },
+      {
+        "content": "Feature 2",
+        "type": "header"
+      },
+      {
+        "id": "home-feature-2",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-2-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-2-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-2-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-2-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-2-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-2-text-position",
+        "label": "Align text",
+        "type": "select",
+        "info": "Will default to \"center\" if three features are shown in a row.",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-2.png",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .png recommended"
+      },
+      {
+        "content": "Feature 3",
+        "type": "header"
+      },
+      {
+        "id": "home-feature-3",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-3-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-3-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-3-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-3-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-3-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-3-text-position",
+        "label": "Align text",
+        "type": "select",
+        "info": "Will default to \"center\" if three features are shown in a row.",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-3.png",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .png recommended"
+      }
+    ],
+    "name": "Home page - featured images 1"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-featured-row-2",
+        "default": true,
+        "label": "Enable featured images 2",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-row-2-title",
+        "label": "Section title",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-row-2-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox",
+        "info": "Only appears when \"text shade\" is set to \"light\"."
+      },
+      {
+        "content": "Feature 1",
+        "type": "header"
+      },
+      {
+        "id": "home-feature-4",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-4-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-4-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-4-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-4-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-4-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-4-text-position",
+        "label": "Align text",
+        "type": "select",
+        "info": "Will default to \"center\" if three features are shown in a row.",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-4.png",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .png recommended"
+      },
+      {
+        "content": "Feature 2",
+        "type": "header"
+      },
+      {
+        "id": "home-feature-5",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-5-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-5-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-5-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-5-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-5-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-5-text-position",
+        "label": "Align text",
+        "type": "select",
+        "info": "Will default to \"center\" if three features are shown in a row.",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-5.png",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .png recommended"
+      },
+      {
+        "content": "Feature 3",
+        "type": "header"
+      },
+      {
+        "id": "home-feature-6",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-6-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-6-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-6-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-6-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-6-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-6-text-position",
+        "label": "Align text",
+        "type": "select",
+        "info": "Will default to \"center\" if three features are shown in a row.",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-6.png",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .png recommended"
+      }
+    ],
+    "name": "Home page - featured images 2"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-featured-row-3",
+        "default": true,
+        "label": "Enable featured images 3",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-row-3-title",
+        "label": "Section title",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-row-3-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox",
+        "info": "Only appears when \"text shade\" is set to \"light\"."
+      },
+      {
+        "content": "Feature 1",
+        "type": "header"
+      },
+      {
+        "id": "home-feature-7",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-7-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-7-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-7-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-7-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-7-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-7-text-position",
+        "label": "Align text",
+        "type": "select",
+        "info": "Will default to \"center\" if three features are shown in a row.",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-7.png",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .png recommended"
+      },
+      {
+        "content": "Feature 2",
+        "type": "header"
+      },
+      {
+        "id": "home-feature-8",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-8-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-8-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-8-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-8-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-8-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-8-text-position",
+        "label": "Align text",
+        "type": "select",
+        "info": "Will default to \"center\" if three features are shown in a row.",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-8.png",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .png recommended"
+      },
+      {
+        "content": "Feature 3",
+        "type": "header"
+      },
+      {
+        "id": "home-feature-9",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-feature-9-text-above",
+        "label": "Subheading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-9-title",
+        "label": "Heading",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-9-text-below",
+        "label": "Caption",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-9-url",
+        "label": "Link URL",
+        "type": "text"
+      },
+      {
+        "id": "home-feature-9-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-9-text-position",
+        "label": "Align text",
+        "type": "select",
+        "info": "Will default to \"center\" if three features are shown in a row.",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "id": "home-feature-9.png",
+        "max-height": 640,
+        "max-width": 1440,
+        "label": "Image",
+        "type": "image",
+        "info": "1440 x 640px .png recommended"
+      }
+    ],
+    "name": "Home page - featured images 3"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-featured-collections",
+        "default": true,
+        "label": "Enable featured collections",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-featured-collections-title",
+        "label": "Section Title",
+        "type": "text"
+      },
+      {
+        "content": "Collection 1",
+        "type": "header"
+      },
+      {
+        "id": "home-featured-collection-1",
+        "label": "Choose collection:",
+        "type": "collection"
+      },
+      {
+        "id": "home-featured-collection-1-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox",
+        "info": "Only appears when \"text shade\" is set to \"light\"."
+      },
+      {
+        "id": "home-featured-collection-1-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "content": "Collection 2",
+        "type": "header"
+      },
+      {
+        "id": "home-featured-collection-2",
+        "label": "Choose collection:",
+        "type": "collection"
+      },
+      {
+        "id": "home-featured-collection-2-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox",
+        "info": "Only appears when \"text shade\" is set to \"light\"."
+      },
+      {
+        "id": "home-featured-collection-2-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      },
+      {
+        "content": "Collection 3",
+        "type": "header"
+      },
+      {
+        "id": "home-featured-collection-3",
+        "label": "Choose collection:",
+        "type": "collection"
+      },
+      {
+        "id": "home-featured-collection-3-text-shadow",
+        "label": "Show text shadow",
+        "type": "checkbox",
+        "info": "Only appears when \"text shade\" is set to \"light\"."
+      },
+      {
+        "id": "home-featured-collection-3-text-color",
+        "label": "Text shade",
+        "type": "select",
+        "options": [
+          {
+            "value": "light",
+            "label": "Light"
+          },
+          {
+            "value": "dark",
+            "label": "Dark"
+          }
+        ]
+      }
+    ],
+    "name": "Home page - featured collections"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-featured-products",
+        "default": true,
+        "label": "Enable featured products",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-featured-products-title",
+        "label": "Section title",
+        "type": "text"
+      },
+      {
+        "id": "home-featured-products-per-row",
+        "label": "Number of products per row",
+        "type": "select",
+        "options": [
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          }
+        ]
+      },
+      {
+        "id": "home-featured-number-of-rows",
+        "label": "Number of rows",
+        "type": "select",
+        "options": [
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "6",
+            "label": "6"
+          },
+          {
+            "value": "8",
+            "label": "8"
+          },
+          {
+            "value": "9",
+            "label": "9"
+          },
+          {
+            "value": "10",
+            "label": "10"
+          },
+          {
+            "value": "12",
+            "label": "12"
+          },
+          {
+            "value": "14",
+            "label": "14"
+          },
+          {
+            "value": "15",
+            "label": "15"
+          },
+          {
+            "value": "16",
+            "label": "16"
+          },
+          {
+            "value": "18",
+            "label": "18"
+          },
+          {
+            "value": "20",
+            "label": "20"
+          },
+          {
+            "value": "30",
+            "label": "30"
+          },
+          {
+            "value": "40",
+            "label": "40"
+          },
+          {
+            "value": "50",
+            "label": "50"
+          }
+        ]
+      },
+      {
+        "id": "home-featured-products",
+        "label": "Choose collection",
+        "type": "collection",
+        "info": "Products will be pulled from this collection."
+      }
+    ],
+    "name": "Home page - featured products"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-imported-content",
+        "default": true,
+        "label": "Enable featured content",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-imported-content-title",
+        "label": "Section title",
+        "type": "text"
+      },
+      {
+        "id": "home-imported-content-page",
+        "label": "Choose page",
+        "type": "page",
+        "info": "Content will be imported from this page."
+      },
+      {
+        "content": "Featured content image",
+        "type": "header"
+      },
+      {
+        "id": "home-embedded-content-image",
+        "label": "Enable image",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-embedded-content.png",
+        "max-height": 640,
+        "max-width": 1280,
+        "label": "Image",
+        "type": "image",
+        "info": "1280 x 640px .png recommended"
+      },
+      {
+        "id": "home-embedded-content-alignment",
+        "label": "Choose image alignment",
+        "type": "select",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      }
+    ],
+    "name": "Home page - featured content"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-blog-posts",
+        "default": true,
+        "label": "Enable featured blog",
+        "type": "checkbox"
+      },
+      {
+        "id": "home-blog-posts-title",
+        "label": "Section title",
+        "type": "text"
+      },
+      {
+        "id": "home-blog-posts-blog",
+        "label": "Choose blog",
+        "type": "blog",
+        "info": "Posts will be pulled from this blog."
+      }
+    ],
+    "name": "Home page - featured blog"
+  },
+  {
+    "settings": [
+      {
+        "id": "product-enable-zoom",
+        "label": "Enable zoom",
+        "type": "checkbox"
+      },
+      {
+        "id": "product-enable-linked-options",
+        "label": "Disable sold out variants",
+        "type": "checkbox",
+        "info": "Disables sold out\/unavailable variants in the product variant selectors so that they are no longer clickable."
+      },
+      {
+        "id": "enable-related-products",
+        "label": "Show related products",
+        "type": "checkbox"
+      },
+      {
+        "id": "enable-product-quantity",
+        "label": "Enable cart quantity box",
+        "type": "checkbox"
+      },
+      {
+        "id": "product-send-to-cart",
+        "default": true,
+        "label": "Enable cart redirection",
+        "type": "checkbox",
+        "info": "Automatically send users to the Cart page after adding a product."
+      },
+      {
+        "content": "Layout",
+        "type": "header"
+      },
+      {
+        "id": "product-column-layout",
+        "label": "Layout",
+        "type": "select",
+        "options": [
+          {
+            "value": "single-column",
+            "label": "Single column"
+          },
+          {
+            "value": "two-column",
+            "label": "Double column"
+          }
+        ]
+      }
+    ],
+    "name": "Product page"
+  },
+  {
+    "settings": [
+      {
+        "id": "collection-description",
+        "label": "Show description",
+        "type": "checkbox"
+      },
+      {
+        "id": "collection-featured-image",
+        "label": "Show collection image",
+        "type": "checkbox"
+      },
+      {
+        "id": "collection-sorting",
+        "label": "Enable sorting ([?](http:\/\/www.pixelunion.net\/support\/pacific-theme-manual\/#sorting))",
+        "type": "checkbox"
+      },
+      {
+        "id": "collection-layout-style",
+        "label": "Choose layout",
+        "type": "select",
+        "options": [
+          {
+            "value": "masonry",
+            "label": "Collage"
+          },
+          {
+            "value": "uniform",
+            "label": "Grid"
+          }
+        ]
+      },
+      {
+        "id": "collection-product-text-style",
+        "label": "Choose product text style",
+        "type": "select",
+        "options": [
+          {
+            "value": "overlay",
+            "label": "Overlay"
+          },
+          {
+            "value": "under",
+            "label": "Under image"
+          }
+        ]
+      },
+      {
+        "id": "collection-product-image-flip",
+        "label": "Enable product image flip on hover",
+        "type": "checkbox"
+      },
+      {
+        "id": "collection-products-per-row",
+        "label": "Number of products per row",
+        "type": "select",
+        "options": [
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          }
+        ]
+      },
+      {
+        "id": "collection-products-number-of-rows",
+        "label": "Number of rows",
+        "type": "select",
+        "options": [
+          {
+            "value": "1",
+            "label": "1"
+          },
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "5",
+            "label": "5"
+          },
+          {
+            "value": "8",
+            "label": "8"
+          },
+          {
+            "value": "10",
+            "label": "10"
+          },
+          {
+            "value": "12",
+            "label": "12"
+          },
+          {
+            "value": "15",
+            "label": "15"
+          },
+          {
+            "value": "20",
+            "label": "20"
+          },
+          {
+            "value": "30",
+            "label": "30"
+          },
+          {
+            "value": "40",
+            "label": "40"
+          },
+          {
+            "value": "50",
+            "label": "50"
+          }
+        ]
+      },
+      {
+        "content": "Filters",
+        "type": "header"
+      },
+      {
+        "id": "collection-filtering",
+        "label": "Enable tag filtering ([?](http:\/\/www.pixelunion.net\/support\/pacific-theme-manual\/#filtering))",
+        "type": "checkbox"
+      },
+      {
+        "content": "Create up to three menus to filter your collections by (e.g., 'Colour', 'Size' and 'Material'). Leave all three set to 'None' if you want to have a single dropdown that lists all of the collection's tags.",
+        "type": "paragraph"
+      },
+      {
+        "id": "collection-filter-link-list-1",
+        "label": "Choose menu 1",
+        "type": "link_list"
+      },
+      {
+        "id": "collection-filter-link-list-2",
+        "label": "Choose menu 2",
+        "type": "link_list"
+      },
+      {
+        "id": "collection-filter-link-list-3",
+        "label": "Choose menu 3",
+        "type": "link_list"
+      },
+      {
+        "content": "Stock level indicator",
+        "type": "header"
+      },
+      {
+        "id": "collection-stock-level-overlay",
+        "label": "Enable indicator",
+        "type": "checkbox"
+      },
+      {
+        "id": "collection-stock-level-overlay-threshold",
+        "default": "5",
+        "label": "Show when stock is lower than:",
+        "type": "select",
+        "options": [
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "5",
+            "label": "5"
+          },
+          {
+            "value": "6",
+            "label": "6"
+          },
+          {
+            "value": "8",
+            "label": "8"
+          },
+          {
+            "value": "9",
+            "label": "9"
+          },
+          {
+            "value": "10",
+            "label": "10"
+          }
+        ]
+      }
+    ],
+    "name": "Collection page"
+  },
+  {
+    "settings": [
+      {
+        "id": "collections-text-style",
+        "label": "Text style",
+        "type": "select",
+        "options": [
+          {
+            "value": "overlay",
+            "label": "Overlay"
+          },
+          {
+            "value": "under",
+            "label": "Under image"
+          }
+        ]
+      },
+      {
+        "id": "collections-show-descriptions",
+        "label": "Show descriptions",
+        "type": "checkbox"
+      },
+      {
+        "id": "collections-per-row",
+        "label": "Collections per row",
+        "type": "select",
+        "options": [
+          {
+            "value": "1",
+            "label": "1"
+          },
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          }
+        ]
+      },
+      {
+        "id": "collection-number-of-rows",
+        "default": "6",
+        "label": "Number of rows",
+        "type": "select",
+        "options": [
+          {
+            "value": "1",
+            "label": "1"
+          },
+          {
+            "value": "2",
+            "label": "2"
+          },
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "4",
+            "label": "4"
+          },
+          {
+            "value": "5",
+            "label": "5"
+          },
+          {
+            "value": "6",
+            "label": "6"
+          },
+          {
+            "value": "7",
+            "label": "7"
+          },
+          {
+            "value": "8",
+            "label": "8"
+          },
+          {
+            "value": "9",
+            "label": "9"
+          },
+          {
+            "value": "10",
+            "label": "10"
+          }
+        ]
+      }
+    ],
+    "name": "Collections list page"
+  },
+  {
+    "settings": [
+      {
+        "id": "cart-special-instructions",
+        "label": "Enable order notes",
+        "type": "checkbox"
+      },
+      {
+        "content": "Shipping rate calculator",
+        "type": "header"
+      },
+      {
+        "id": "cart-shipping-calculator",
+        "label": "Enable",
+        "type": "checkbox"
+      },
+      {
+        "id": "shipping-calculator-default-country",
+        "label": "Default country",
+        "type": "text",
+        "info": "If a customer is logged in, their default shipping address country will be selected."
+      }
+    ],
+    "name": "Cart page"
+  },
+  {
+    "settings": [
+      {
+        "content": "Whether you choose to use MailChimp or Campaign Monitor, both services will provide you with a Form \"Action\" URL linking to your account. Check out our theme [documentation](http:\/\/www.pixelunion.net\/support\/pacific-theme-manual\/#newsletter) for setting up a MailChimp or Campaign Monitor account.",
+        "type": "paragraph"
+      },
+      {
+        "id": "newsletter-platform",
+        "label": "Platform",
+        "type": "select",
+        "options": [
+          {
+            "value": "mailchimp",
+            "label": "MailChimp"
+          },
+          {
+            "value": "campaign-monitor",
+            "label": "Campaign Monitor"
+          }
+        ]
+      },
+      {
+        "id": "newsletter-action-url",
+        "label": "Form 'action' URL",
+        "type": "text"
+      },
+      {
+        "id": "campaign-monitor-name",
+        "label": "Campaign Monitor input 'name'",
+        "type": "text"
+      }
+    ],
+    "name": "Newsletter"
+  },
+  {
+    "settings": [
+      {
+        "content": "Accounts",
+        "type": "header"
+      },
+      {
+        "id": "social-facebook-url",
+        "label": "Facebook",
+        "type": "text",
+        "info": "https:\/\/www.facebook.com\/shopify"
+      },
+      {
+        "id": "social-twitter-url",
+        "label": "Twitter",
+        "type": "text",
+        "info": "https:\/\/twitter.com\/shopify"
+      },
+      {
+        "id": "social-google-url",
+        "label": "Google+",
+        "type": "text",
+        "info": "https:\/\/plus.google.com\/+shopify"
+      },
+      {
+        "id": "social-pinterest-url",
+        "label": "Pinterest",
+        "type": "text",
+        "info": "https:\/\/www.pinterest.com\/shopify"
+      },
+      {
+        "id": "social-instagram-url",
+        "label": "Instagram",
+        "type": "text",
+        "info": "https:\/\/instagram.com\/shopify"
+      },
+      {
+        "id": "social-kickstarter-url",
+        "label": "Kickstarter",
+        "type": "text",
+        "info": "https:\/\/www.kickstarter.com\/projects\/user\/project"
+      },
+      {
+        "id": "social-vimeo-url",
+        "label": "Vimeo",
+        "type": "text",
+        "info": "https:\/\/vimeo.com\/shopify"
+      },
+      {
+        "id": "social-youtube-url",
+        "label": "YouTube",
+        "type": "text",
+        "info": "https:\/\/www.youtube.com\/user\/shopify"
+      },
+      {
+        "id": "social-email-address",
+        "label": "Email Address",
+        "type": "text",
+        "info": "support@shopify.com"
+      },
+      {
+        "id": "social-rss-url",
+        "label": "RSS",
+        "type": "text",
+        "info": "http:\/\/storefront.myshopify.com\/blogs\/news.atom"
+      },
+      {
+        "content": "Sharing",
+        "type": "header"
+      },
+      {
+        "id": "product-show-share-buttons",
+        "label": "Enable product sharing",
+        "type": "checkbox"
+      },
+      {
+        "id": "blog-show-share-buttons",
+        "label": "Enable blog post sharing",
+        "type": "checkbox"
+      },
+      {
+        "id": "share-widget-facebook",
+        "label": "Share on Facebook",
+        "type": "checkbox"
+      },
+      {
+        "id": "share-widget-twitter",
+        "label": "Tweet on Twitter",
+        "type": "checkbox"
+      },
+      {
+        "id": "share-widget-pinterest",
+        "label": "Pin on Pinterest",
+        "type": "checkbox",
+        "info": "Product page only."
+      },
+      {
+        "id": "share-widget-fancy",
+        "label": "Add to Fancy",
+        "type": "checkbox",
+        "info": "Product page only."
+      },
+      {
+        "id": "share-widget-google-plus",
+        "label": "+1 on Google Plus",
+        "type": "checkbox"
+      },
+      {
+        "id": "share-widget-email",
+        "label": "Send by email",
+        "type": "checkbox"
+      },
+      {
+        "content": "Twitter",
+        "type": "header"
+      },
+      {
+        "id": "footer-twitter-id",
+        "label": "Username",
+        "type": "text",
+        "info": "Note: Don't include the '@' symbol."
+      },
+      {
+        "id": "footer-twitter-retweets",
+        "label": "Show retweets",
+        "type": "checkbox"
+      },
+      {
+        "content": "Instagram",
+        "type": "header"
+      },
+      {
+        "id": "footer-instagram-access-token",
+        "label": "Access token ([?](http:\/\/instagram.pixelunion.net))",
+        "type": "text"
+      },
+      {
+        "id": "footer-instagram-count",
+        "label": "Choose number of images",
+        "type": "select",
+        "options": [
+          {
+            "value": "3",
+            "label": "3"
+          },
+          {
+            "value": "6",
+            "label": "6"
+          }
+        ]
+      },
+      {
+        "id": "footer-instagram-use-tag",
+        "label": "Show specific tag",
+        "type": "checkbox"
+      },
+      {
+        "id": "footer-instagram-tag",
+        "label": "Tag",
+        "type": "text",
+        "info": "Enter the tag without the hashmark. Example: selfie."
+      }
+    ],
+    "name": "Social media"
+  },
+  {
+    "settings": [
+      {
+        "id": "enable-currency-switcher",
+        "default": true,
+        "label": "Enable currency conversion",
+        "type": "checkbox",
+        "info": "Even though prices are displayed in different currencies, orders will still be processed in your store's currency."
+      },
+      {
+        "id": "currency-switcher-format",
+        "default": "money_with_currency_format",
+        "label": "Format",
+        "type": "select",
+        "options": [
+          {
+            "value": "money_format",
+            "label": "Without currency ($10.00)"
+          },
+          {
+            "value": "money_with_currency_format",
+            "label": "With currency ($10.00 CAD)"
+          }
+        ]
+      },
+      {
+        "id": "currency-switcher-supported-currencies",
+        "default": "CAD USD",
+        "label": "Supported currencies",
+        "type": "text",
+        "info": "Use the country's ISO [currency code](http:\/\/www.xe.com\/iso4217.php). Separate your currency codes with a space."
+      }
+    ],
+    "name": "Currency"
+  },
+  {
+    "settings": [
+      {
+        "id": "show_multiple_currencies",
+        "default": true,
+        "label": "Enable Auto Currency App?",
+        "type": "checkbox"
+      },
+      {
+        "content": "Although you will be able to display prices on your store front in different currencies, Shopify will still process orders in your shop's currency.",
+        "type": "paragraph"
+      },
+      {
+        "id": "show_decimal_places",
+        "default": true,
+        "label": "Round Decimal Digits to .00 ?",
+        "type": "checkbox"
+      },
+      {
+        "id": "hide_decimal_places",
+        "label": "Hide Decimal Digits? ( Remove .00 )",
+        "type": "checkbox"
+      },
+      {
+        "content": "By selecting the Hide Decimal Digits checkbox, the prices will be diplayed without decimal digits.",
+        "type": "paragraph"
+      },
+      {
+        "id": "currency_format",
+        "default": "money_with_currency_format",
+        "label": "Money format",
+        "type": "select",
+        "options": [
+          {
+            "value": "money_format",
+            "label": "Without Currency, ex: $10.00"
+          },
+          {
+            "value": "money_with_currency_format",
+            "label": "With Currency, ex: $10 CAD"
+          }
+        ]
+      },
+      {
+        "id": "supported_currencies",
+        "default": "INR GBP CAD USD AUD EUR JPY",
+        "label": "Currencies you wish to support",
+        "type": "text"
+      },
+      {
+        "id": "default_currency",
+        "default": "USD",
+        "label": "Default currency",
+        "type": "text"
+      },
+      {
+        "content": "Separate your currency codes with a space. Use the ISO 4217 3-letter currency code. Click [here](http:\/\/www.xe.com\/iso4217.php) for a complete list of currency codes. Example: CAD USD.",
+        "type": "paragraph"
+      }
+    ],
+    "name": "Money options"
+  }
+]

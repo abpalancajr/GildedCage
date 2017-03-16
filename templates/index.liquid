@@ -1,0 +1,48 @@
+{% comment %}
+  numModules: should equal the max possible number of modules as dictated by the settings schema
+{% endcomment %}
+
+{% comment %}
+  Changing these values will rearrange the module layout.
+  The prefixed '|' is required.
+{% endcomment %}
+
+{% assign numModules = 9 %}
+
+{% assign homeModules = '' %}
+{% for i in (1..numModules) %}
+  {% capture module %}home-module-{{ i }}{% endcapture %}
+  {% unless settings[module] == 'none' or homeModules contains settings[module] %}
+    {% capture homeModules %}{{ homeModules }}-{{ settings[module] }}{% endcapture %}
+  {% endunless %}
+{% endfor %}
+
+{% assign homeModules = homeModules | remove_first: '-' | split: '-' %}
+
+{% if homeModules != blank %}
+  {% for module in homeModules %}
+    {% case module %}
+      {% when 'A' %}
+        {% if settings.enable-slideshow %}{% include 'home-slideshow' %}{% endif %}
+      {% when 'B' %}
+        {% if settings.enable-video %}{% include 'home-video' %}{% endif %}
+      {% when 'C' %}
+        {% assign features = "home-feature-1|home-feature-2|home-feature-3" | split: "|" %}
+        {% if settings.enable-featured-row-1 %}{% include 'home-feature-row' with 'home-feature-row-1' %}{% endif %}
+      {% when 'D' %}
+        {% assign features = "home-feature-4|home-feature-5|home-feature-6" | split: "|" %}
+        {% if settings.enable-featured-row-2 %}{% include 'home-feature-row' with 'home-feature-row-2' %}{% endif %}
+      {% when 'E' %}
+        {% assign features = "home-feature-7|home-feature-8|home-feature-9" | split: "|" %}
+        {% if settings.enable-featured-row-3 %}{% include 'home-feature-row' with 'home-feature-row-3' %}{% endif %}
+      {% when 'F' %}
+        {% if settings.enable-featured-collections %}{% include 'home-featured-collections' %}{% endif %}
+      {% when 'G' %}
+        {% if settings.enable-featured-products %}{% include 'home-featured-products' %}{% endif %}
+      {% when 'H' %}
+        {% if settings.enable-imported-content %}{% include 'home-imported-content' %}{% endif %}
+      {% when 'I' %}
+        {% if settings.enable-blog-posts %}{% include 'home-blog-posts' %}{% endif %}
+    {% endcase %}
+  {% endfor %}
+{% endif %}

@@ -1,0 +1,71 @@
+<div class="product-form">
+
+  <meta itemprop="name" content="{{ product.title }}">
+  <meta itemprop="brand" content="{{ product.vendor }}">
+  <meta itemprop="url" content="{{ shop.url }}{{ product.url }}">
+  <meta itemprop="image" content="{{ product | img_url: 'grande' }}">
+
+  <form id="product-form" action="/cart/add" method="post" enctype="multipart/form-data" data-product-id="{{ product.id }}">
+
+    <div id="infiniteoptions-container"></div>
+    <div id="uploadery-container"></div>
+    <div class="product-options">
+      <select name="id" id="product-variants">
+        {% for variant in product.variants %}
+          <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} value="{{ variant.id }}" data-sku="{{ variant.sku }}">{{ variant.title }} - {{ variant.price | money }}</option>
+        {% endfor %}
+      </select>
+
+      {% comment %}
+      <div class="input-wrapper">
+        <label>Text Example</label>
+        <input type="text" name="properties[Name]">
+      </div>
+
+      <div class="input-wrapper">
+        <label>File Example</label>
+        <input type="file" name="properties[File]">
+      </div>
+      {% endcomment %}
+
+    </div>
+
+    {% if settings.enable-product-quantity %}
+      <div class="product-quantity">
+        <div class="input-wrapper">
+          <label for="quantity">{{ 'general.general.quantity' | t }}</label>
+          <input type="text" name="quantity" id="quantity" value="1" />
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="product-submit" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+
+      <span class="product-price">
+        <span class="product-price-minimum money" itemprop="price">
+          {{ variant.price | money }}
+        </span>
+
+        <span class="product-price-compare money">
+          {% if variant.compare_at_price_min > variant.price_min %}
+            {{ variant.compare_at_price_min | money }}
+          {% endif %}
+        </span>
+      </span>
+
+      {% if variant.available %}
+        <input class="add-to-cart" type="submit" value="{{ 'products.product.add_to_cart' | t }}" />
+        <link itemprop="availability" href="http://schema.org/InStock">
+      {% else %}
+        <input type="button" class="add-to-cart disabled" disabled="disabled" value="{{ 'products.product.sold_out' | t }}" />
+        <link itemprop="availability" href="http://schema.org/OutOfStock">
+      {% endif %}
+    </div>
+
+    <div class="product-message"></div>
+  </form>
+  <div style="width:100%; height: auto; text-align:center; margin-top: 20px;">
+    <a href="https://gildedcage.com/account/register">SIGN UP</a> TO BECOME A GILDED CAGE VIP AND GET $10 OFF
+  </div>
+    
+</div>
